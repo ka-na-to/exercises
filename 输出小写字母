@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main(void)
+{
+	 char a;
+	printf("please input a character:");
+	scanf("%c",&a);
+	if((a>'A'||a=='A')&&(a<'Z'||a=='Z'))
+	  {
+	    printf("%c",a+32);
+	   }
+	else
+	  {
+	   printf("%c",a);
+	
+	  }
+
+
+}
