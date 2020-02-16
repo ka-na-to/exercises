@@ -3,7 +3,7 @@ int main(void)
 {
 int n = 0;
 printf("input a string:");
-while(getchar()!='\n')
+while(getchar()!='\n')  //'\n'使得n++算出去掉空格的字符
 	{
 		n++;
 	}
